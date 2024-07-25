@@ -1,0 +1,129 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.fa-image {
+    display: block;
+    margin: 0 auto;
+    padding: 10px;
+    margin-top: 50px;
+}
+
+.box-1 {
+    width: 100%;
+    margin: 20px auto;
+    padding: 20px;
+    background-color: #f2f2f2;
+    border-radius: 5px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.2);
+}
+
+.box-1 h1 {
+    text-align: center;
+    font-size: 24px;
+}
+
+.box-1 form {
+    margin-top: 20px;
+    text-align: center;
+}
+
+.box-1 input[type="text"] {
+    width: 100%;
+    padding: 8px;
+    border: none;
+    border-radius: 3px;
+}
+
+.button {
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    padding: 10px 20px;
+    text-align: center;
+    text-decoration: none;
+    font-size: 12px;
+    border: 1PX solid gray;
+    margin-right: 5px;
+}
+
+article div {
+    margin-top: 20px;
+}
+
+footer {
+    text-align: center;
+    margin-top: 20px;
+    padding: 10px;
+    background-color: #f2f2f2;
+}
+
+.box-2 {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    margin-top: 20px;
+}
+
+.box-2 div {
+    background-color: aquamarine;
+    border-radius: 5px;
+    text-align: center;
+    padding: 2px;
+    margin: 1px;
+}
+
+li {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+}
+
+.div1 {
+    width: 49%;
+    margin-top: 20px;
+}
+
+.div2 {
+    width: 20%;
+    margin-top: 20px;
+}
+
+.div3 {
+    width: 30%;
+    margin-top: 20px;
+}
+
+.div3 form {
+    margin-top: 20px;
+    text-align: center;
+}
+
+.div3 input {
+    border: none;
+    border-radius: 3px;
+    padding: 8px;
+    margin-right: 5px;
+}
+
+.div3 .subscribe-archive {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+    margin-top: 10px;
+}
+
+.div3 a {
+    text-decoration: none;
+    color: blue;
+    font-size: 14px;
+}
+
+.div3 button a {
+    text-decoration: none;
+    color: blue;
+    font-size: 14px;
+}
